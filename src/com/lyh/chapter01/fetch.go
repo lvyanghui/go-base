@@ -7,6 +7,9 @@ import (
 	"io/ioutil"
 )
 
+/**
+配置program arguments http://www.baidu.com/ http://www.sina.com http://www.taobao.com
+ */
 //http://www.baidu.com/
 func HttpContent(){
 	for _, url := range os.Args[1:]{
